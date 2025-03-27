@@ -1,0 +1,233 @@
+/* Home.css */
+.home-container1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+    left:0;
+    right:0;
+ 
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('/pethomebg4.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-top: 15rem;
+    height: 60vh;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Adjusted Get Started Button */
+.btn-primary {
+  background-color: #ff6f61;
+  color: white;
+  padding: 6px 12px;  /* Reduced padding */
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;   /* Reduced font size */
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #ff4a3d;
+}
+
+  
+  /* About Us */
+  .about {
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    padding: 50px 20px;
+    background-color: #f9f9f9; /* Light background for subtle contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    text-align: center;
+}
+.aboutImage{
+  height: 400px;
+  width:30rem;
+}
+  .about-content{
+    margin-top: 5rem;
+  }
+.about h2 {
+  font-size: 2.5rem; /* Bigger font for the heading */
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+  
+.about p {
+  font-size: 1.2rem; /* Increased font size for better readability */
+  max-width: 700px;
+  margin: 0 auto;
+  color: #555;
+  line-height: 1.6;
+  text-align: center;
+}
+.about .about-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.about .about-card img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.about .about-card p {
+  font-size: 1.1rem;
+  color: #777;
+}
+  
+  /* Featured Pets */
+  .featured-pets {
+    padding: 50px 20px;
+  }
+  
+  .featured-pets h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .pets-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .pet-card {
+    background-color: #fff;
+    border: 1px solid #ee6205;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pet-card img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .pet-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .pet-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* How It Works */
+  .how-it-works {
+    padding: 50px 20px;
+    background-color: #f7a57a; /* Light blue background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+  
+.how-it-works h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+  
+  .how-it-works ol {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .how-it-works li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+ 
+  
+  /* Testimonials */
+  .testimonials {
+    padding: 50px 20px;
+    background-color: #f59968;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+  
+  .testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+  
+  .testimonial-card {
+    background-color: #f3d3c1;
+    border: 1px solid #f85c01;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+  .testimonial-card:hover {
+    transform: translateY(-5px); /* Hover effect */
+}
+  .testimonial-card p {
+    font-size: 1.1rem;
+    color: #555;
+    font-style: italic;
+}
+  .testimonial-card span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff6f61;
+}
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
